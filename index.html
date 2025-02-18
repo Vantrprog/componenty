@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Компоненты</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+          <div class="box box-1 col-12 col-xl-3"><button type="button" class="btn btn-light">Кнопка 1</button></div>
+          <div class="box box-2 col-12 col-xl-3"><button type="button" class="btn btn-outline-info">Кнопка 2</button></div>
+          <div class="box box-3 col-12 col-xl-3"><button type="button" class="btn btn-success btn-sm">Кнопка 3</button></div>
+          <div class="box box-4 col-12 col-xl-3"><button type="button" class="btn btn-danger btn-lg">Кнопка 4</button></div>
+          <div class="box box-4"><button type="button" class="btn btn-warning w-100">Кнопка 5</button></div>
+        </div>
+    </div>
+    <ul class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Строительство и ремонт</a></li>
+        <li class="breadcrumb-item"><a href="#">Инструменты</a></li>
+        <li class="breadcrumb-item"><a href="#">Электроинструменты</a></li>
+        <li class="breadcrumb-item active">Перфораторы</li>
+    </ul>
+
+    
+    <div id="faq">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="card-title">
+              <a data-toggle="collapse" data-parent="#faq" href="#answerOne">
+                Что если ботинки большие для моих ног?
+              </a>
+           </h5>
+          </div>
+          <div id="answerOne" class="collapse show">
+           <div class="card-body">
+             Набейте ботинки газетами или салфетками.
+           </div>
+          </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+              <h5 class="card-title">
+                <a data-toggle="collapse" data-parent="#faq" href="#answerTwo">
+                    Могу я носить ботинки в помещении?
+                </a>
+             </h5>
+            </div>
+            <div id="answerTwo" class="collapse show">
+             <div class="card-body">
+                Нет. Твоя мама должна была рассказать об этом.
+             </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+              <h5 class="card-title">
+                <a data-toggle="collapse" data-parent="#faq" href="#answerThree">
+                    Что делать, если ботинки скользят при намокании?
+                </a>
+             </h5>
+            </div>
+            <div id="answerThree" class="collapse show">
+             <div class="card-body">
+                Храните ботинки в сухости.
+             </div>
+            </div>
+        </div>
+    </div>
+    <div>
+    <h3>Задание 1</h3>
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+          Страна
+        </button>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Россия</a>
+          <a class="dropdown-item" href="#">Беларусь</a>
+        </div>
+      </div>
+    </div>
+    <div>
+    <h3>Задание 2</h3>
+    <div id="faq">
+        <div class="card">
+          <div class="card-header">
+            <h5 class="card-title">
+              <a data-toggle="collapse" data-parent="#faq" href="#answerFour">
+                Когда коня покупают, какой он бывает?
+              </a>
+           </h5>
+          </div>
+          <div id="answerFour" class="collapse show">
+           <div class="card-body">
+            Мокрый
+           </div>
+          </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+              <h5 class="card-title">
+                <a data-toggle="collapse" data-parent="#faq" href="#answerFive">
+                    Каким гребнем голову не расчешешь?
+                </a>
+             </h5>
+            </div>
+            <div id="answerFive" class="collapse show">
+             <div class="card-body">
+                Петушиным
+             </div>
+            </div>
+          </div>
+    </div>
+    </div>
+    <script src="JS/jquery-3.6.0.min.js"></script>
+    <script src="JS/popper.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+</body>
+</html>
